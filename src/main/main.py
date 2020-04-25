@@ -1,4 +1,11 @@
 from utilitarios import utilitarios_forma as forma
+import pygame
+import numpy as np
 
-print('alto: '+ str(forma.alto))
-print('ancho: '+ str(forma.ancho))
+pygame.init()
+
+screem = pygame.display.set_mode((forma.alto,forma.ancho))
+screem.fill(forma.bg)
+
+while True:
+    pass
