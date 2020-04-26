@@ -1,5 +1,5 @@
-alto = 1000
-ancho = 1000 
+alto = 500
+ancho = 500 
 bg = 25,25,25
 
 #numero de  celdas
